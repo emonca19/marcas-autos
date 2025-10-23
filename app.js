@@ -12,7 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
         "Ford": "color-Ford",
         "Honda": "color-Honda",
         "Chevrolet": "color-Chevrolet",
-        "Nissan": "color-Nissan"
+        "Nissan": "color-Nissan",
+        "BMW": "color-BMW",
+        "Audi": "color-Audi",
+        "Mercedes-Benz": "color-Mercedes-Benz",
+        "Hyundai": "color-Hyundai",
+        "Kia": "color-Kia"
     };
 
     async function cargarMarcas() {
@@ -73,11 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function aplicarColor(marca) {
         marcasSelect.classList.remove(...Object.values(colorMap), 'color-default');
-        
+        modelosSelect.classList.remove(...Object.values(colorMap), 'color-default');
+
         if (marca && colorMap[marca]) {
             marcasSelect.classList.add(colorMap[marca]);
+            modelosSelect.classList.add(colorMap[marca]);
         } else {
             marcasSelect.classList.add('color-default');
+            modelosSelect.classList.add('color-default');
         }
     }
 

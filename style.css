@@ -51,25 +51,65 @@ select:disabled {
 
 .color-Toyota {
     border-color: #eb0a1e;
-    background-color: #fef6f7;
+    background-color: #ffe5e8;
 }
 
 .color-Ford {
     border-color: #003478;
-    background-color: #e6eef7;
+    background-color: #d9e8ff;
 }
 
 .color-Honda {
-    border-color: #cc0000;
-    background-color: #fdf0f0;
+    border-color: #ff6600;
+    background-color: #fff0e5;
 }
 
 .color-Chevrolet {
-    border-color: #bca600;
-    background-color: #fdfbec;
+    border-color: #f4c430;
+    background-color: #fffaeb;
 }
 
 .color-Nissan {
-    border-color: #c3002f;
-    background-color: #fef0f3;
+    border-color: #8b0000;
+    background-color: #ffe6ee;
+}
+
+.color-BMW {
+    border-color: #1c69d4;
+    background-color: #e3f0ff;
+}
+
+.color-Audi {
+    border-color: #bb0a30;
+    background-color: #ffe5ea;
+}
+
+.color-Mercedes-Benz {
+    border-color: #00adef;
+    background-color: #e0f7ff;
+}
+
+.color-Hyundai {
+    border-color: #002c5f;
+    background-color: #dde9f7;
+}
+
+.color-Kia {
+    border-color: #05141f;
+    background-color: #f0f4f7;
+}
+
+select.color-default,
+select.color-Toyota,
+select.color-Ford,
+select.color-Honda,
+select.color-Chevrolet,
+select.color-Nissan,
+select.color-BMW,
+select.color-Audi,
+select.color-Mercedes-Benz,
+select.color-Hyundai,
+select.color-Kia {
+  
+    box-sizing: border-box;
 }
