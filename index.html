@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas y Modelos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Selecciona tu Auto</h1>
+
+    <div class="control-grupo">
+        <label for="marcasSelect">Marca:</label>
+        <select id="marcasSelect">
+            <option value="">Cargando marcas...</option>
+        </select>
+    </div>
+
+    <div class="control-grupo">
+        <label for="modelosSelect">Modelo:</label>
+        <select id="modelosSelect" disabled>
+            <option value="">-- Seleccione una marca primero --</option>
+        </select>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
